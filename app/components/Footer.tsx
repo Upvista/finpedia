@@ -133,6 +133,21 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+          
+          {/* Developer Attribution */}
+          <div className="text-center mt-6 pt-4 border-t border-gray-800">
+            <p className="text-gray-500 text-sm">
+              Made by{' '}
+              <a 
+                href="https://www.upvistadigital.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors hover:underline"
+              >
+                Upvista Digital
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
